@@ -10,7 +10,7 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
-    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
     "start:dev":"live-server public"
   },
   "repository": {
