@@ -40,7 +40,314 @@
     </style>
   </head>
   <body>
-    <h1>Hello website</h1>
+    <div id="root">
+      <div class="content-wraper max-w-screen-2xl mx-auto   text-base">
+          <header class="">
+              <div class="navbar bg-[#0C5ADB] px-8">
+                  <nav class="flex flex-row justify-between items-center py-4">
+                      <div class="logo basis-2/6">
+                          <img src="./image/logotechmaster.png" alt="khoa hoc business analysis">
+                      </div>
+                      <div class="nav-desktop hidden md:block">
+                          <ul class="flex  basis-4/6 flex-row justify-end items-center gap-6 uppercase text-sm font-medium text-white  ">
+                              <li><a href="#">Giới Thiệu</a></li>
+                              <li><a href="#">Đối tượng</a></li>
+                              <li><a href="#">Nội dung</a></li>
+                              <li><a href="#">Học Phí</a></li>
+                              <li><a href="#">Giảng viên</a></li>
+                              <li><a href="#">Liên hệ</a></li>
+                              <li><a href="#">FAQ</a></li>
+                          </ul>
+                      </div>
+                      <div class="icon-menu-mobie md:hidden text-white">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                            
+                      </div>
+                      
+                  </nav>
+
+              </div>
+              <div class="banner flex flex-col md:flex-row px-8 py-3  bg-gradient-to-r from-cyan-500 to-blue-500 md:gap-3 ">
+                  <div class="content-banner basis-1/2 flex flex-col justify-center items-center ">
+                      <div class="text-banner text-center ">
+                          <h3 class="text-3xl uppercase text-white font-semibold pb-2">business analysis</h3>
+                          <p class="text-white  pb-2">Cơ bản & Nâng cao</p>
+                          <h3 class="text-2xl uppercase text-white font-semibold pb-2">Dành cho nhân viên IT</h3>
+                          <p class=" text-white">Cơ hội tham gia vào các tập đoàn công nghệ lớn với mức lương cao và làm việc trong môi trường chuyên nghiệp trong vòng 6  tháng</p>
+                      </div>
+                      <div class="button mt-3 ">
+                          <button type="button" class="bg-[#E96729] px-4 py-2 rounded-xl text-white font-semibold shadow-2xl">Đăng ký học</button>
+                          <button type="button" class="bg-primary-text px-4 py-2 rounded-xl text-white font-semibold">Tìm hiểu thêm</button>
+                      </div>
+                      
+                  </div>
+                  <div class="img-banner basis-1/2 hidden md:block md:shadow-lg ">
+                      <img class="rounded-xl md:shadow-lg" src="./image/bannertechmaster.jpeg" alt="">
+                  </div>
+              </div>
+              
+          </header>
+          <main class=" ">
+              <section class="intro-crouse mt-3 px-4">
+                  <div class="title-intro flex flex-col justify-center items-center ">
+                      <h3 class="text-primary-text uppercase font-semibold text-2xl mb-2">Giới thiệu khóa học</h3>
+                      <div class="divider flex flex-row gap-1">
+                          <div class="short w-6 h-0.5 bg-primary-text "></div>
+                          <div class="long w-16 h-0.5 bg-primary-text"></div>
+                      </div>
+                  </div>
+                  <div class="content-intro mt-3 ">
+                      <div class="row1 md:flex md:gap-3 " >
+                          <div class="service-1 bg-secondary-color basis-1/3 mb-3 rounded-xl  px-3 py-5">
+                              <div class="icon-service flex justify-center mb-3 md:justify-start">
+                                  <img src="./image/icon-service/service1.png" alt="Khóa học phân tích nghiệp vụ BA">
+                              </div>
+                              <div class="content-service">
+                                  <p class="title-service  font-bold text-lg">
+                                      Phân tích nghiệp vụ phần mềm
+                                  </p>
+                                  <p class="content-service">
+                                      Được chia thành 14 phần với các kiến thức từ cơ bản đến nâng cao, các phần được xây dựng dựa trên các dự án thực tế
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="service-1 bg-secondary-color basis-1/3 mb-3 rounded-xl  px-3 py-5">
+                              <div class="icon-service flex justify-center mb-3 md:justify-start">
+                                  <img src="./image/icon-service/teamwork.png" alt="Khóa học phân tích nghiệp vụ BA">
+                              </div>
+                              <div class="content-service">
+                                  <p class="title-service  font-bold text-lg">
+                                      Giao tiếp và văn hóa doanh nghiệp
+                                  </p>
+                                  <p class="content-service">
+                                      Được chia thành 14 phần với các kiến thức từ cơ bản đến nâng cao
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="service-1 bg-secondary-color basis-1/3 mb-3 rounded-xl  px-3 py-5">
+                              <div class="icon-service flex justify-center mb-3 md:justify-start">
+                                  <img src="./image/icon-service/database.png" alt="Khóa học phân tích nghiệp vụ BA">
+                              </div>
+                              <div class="content-service">
+                                  <p class="title-service  font-bold text-lg">
+                                      Thiết kế CSDL quan hệ
+                                  </p>
+                                  <p class="content-service">
+                                      Được chia thành 14 phần với các kiến thức từ cơ bản đến nâng cao, các phần được xây dựng dựa trên các dự án thực tế
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row1 md:flex md:gap-3">
+                          <div class="service-1 bg-secondary-color basis-1/3 mb-3 rounded-xl  px-3 py-5">
+                              <div class="icon-service flex justify-center mb-3 md:justify-start">
+                                  <img src="./image/icon-service/design.png" alt="Khóa học phân tích nghiệp vụ BA">
+                              </div>
+                              <div class="content-service">
+                                  <p class="title-service  font-bold text-lg">
+                                      Thiết kế UI/UX
+                                  </p>
+                                  <p class="content-service">
+                                      Được chia thành 14 phần với các kiến thức từ cơ bản đến nâng cao, các phần được xây dựng dựa trên các dự án thực tế
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="service-1 bg-secondary-color basis-1/3 mb-3 rounded-xl  px-3 py-5">
+                              <div class="icon-service flex justify-center mb-3 md:justify-start">
+                                  <img src="./image/icon-service/ITSystem.png" alt="Khóa học phân tích nghiệp vụ BA">
+                              </div>
+                              <div class="content-service">
+                                  <p class="title-service  font-bold text-lg">
+                                      Hệ thống công nghệ thông tin
+                                  </p>
+                                  <p class="content-service">
+                                      Được chia thành 14 phần với các kiến thức từ cơ bản đến nâng cao, các phần được xây dựng dựa trên các dự án thực tế
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="service-1 bg-secondary-color basis-1/3 mb-3 rounded-xl  px-3 py-5">
+                              <div class="icon-service flex justify-center mb-3 md:justify-start">
+                                  <img src="./image/icon-service/mobile-banking.png" alt="Khóa học phân tích nghiệp vụ BA">
+                              </div>
+                              <div class="content-service">
+                                  <p class="title-service  font-bold text-lg">
+                                      Nghiệp vụ CNTT trong Ngân hàng
+                                  </p>
+                                  <p class="content-service">
+                                      Được chia thành 14 phần với các kiến thức từ cơ bản đến nâng cao, các phần được xây dựng dựa trên các dự án thực tế
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                     
+                  </div>
+              </section>
+              <section class="why-true bg-color-column px-4 flex flex-col md:flex-row gap-3 ">
+                  <div class="text-whytrue md:basis-1/3 pb-5">
+                      <h3 class="text-3xl uppercase text-primary-text  font-semibold py-5 text-center md:text-left">Tại sao bạn chọn chúng tôi?</h3>
+                      <p class="text-center md:text-left">Kinh nghiệm 15 năm trong lĩnh vực đào tạo công nghệ hàng đầu việt nam, với hàng ngàn sinh viên tìm được công việc tốt nhất</p>
+                  </div>
+                  <div class="content-why-true flex flex-col gap-3 md:basis-2/3 md:flex-row pb-5">
+                      <div class="why-true-support flex gap-3 items-center bg-secondary-color rounded-xl px-3 py-5">
+                          <div class="icon-wt">
+                              <img class="w-32" src="./image/iconwhytrue/support.png" alt="">
+                          </div>
+                          <div class="text-wt">
+                              <p class="font-bold text-lg">Hỗ trợ nhanh</p>
+                              <p>Đội ngũ chuyên gia sẵn sàng hỗ trợ mọi lúc mọi nơi</p>
+                          </div>
+                      </div>
+                      <div class="why-true-support flex gap-3 items-center bg-secondary-color rounded-xl px-3 py-5">
+                          <div class="icon-wt">
+                              <img class="w-64" src="./image/iconwhytrue/paractice80.png" alt="">
+                          </div>
+                          <div class="text-wt">
+                              <p class="font-bold text-lg">80% Thực hành</p>
+                              <p>Thực hành dựa trên các dự án thực tế, các vấn đề doanh nghiệp cần giải quyết hiện nay</p>
+                          </div>
+                      </div>
+                      <div class="why-true-support flex gap-3 items-center bg-secondary-color rounded-xl px-3 py-5">
+                          <div class="icon-wt">
+                              <img class="w-32" src="./image/iconwhytrue/job.png" alt="Việc làm sau khi học xong khóa BA">
+                          </div>
+                          <div class="text-wt">
+                              <p class="font-bold text-lg">Hỗ trợ nhanh</p>
+                              <p>Đội ngũ chuyên gia sẵn sàng hỗ trợ mọi lúc mọi nơi</p>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+              <section class="learning-roadmap px-4 my-5 md:px-16">
+                  <div class="title-roadmap flex flex-col justify-center items-center ">
+                      <h3 class="text-primary-text uppercase font-semibold text-2xl mb-2">Lộ trình khóa học</h3>
+                      <div class="divider flex flex-row gap-1">
+                          <div class="short w-6 h-0.5 bg-primary-text "></div>
+                          <div class="long w-16 h-0.5 bg-primary-text"></div>
+                      </div>
+                  </div>
+                  <div class="content-roadmap">
+                      <div class="roadmap1">
+                          <h4 class="text-primary-text font-semibold text-2xl my-3">Phần 1: Phân tích nghiệp vụ phần mềm</h4>
+                          <div class="content-1 flex flex-row justify-between bg-secondary-color px-5 py-4 rounded-lg mb-3">
+                              <div class="text-content-roadmap font-semibold text-xl">Giới thiệu cơ bản về BA</div>
+                              <div class="icon-down">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                    
+                              </div>
+                           </div>
+                           <div class="content-1 flex flex-row justify-between bg-secondary-color px-5 py-4 rounded-lg mb-3">
+                              <div class="text-content-roadmap font-semibold text-xl">Vòng đời phát triển phần mềm</div>
+                              <div class="icon-down">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                    
+                              </div>
+                           </div>
+                           <div class="content-1 flex flex-row justify-between bg-secondary-color px-5 py-4 rounded-lg mb-3">
+                              <div class="text-content-roadmap font-semibold text-xl">Khảo sát và thu thập yêu cầu</div>
+                              <div class="icon-down">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                    
+                              </div>
+                           </div>
+                           <div class="content-1 flex flex-row justify-between bg-secondary-color px-5 py-4 rounded-lg mb-3">
+                              <div class="text-content-roadmap font-semibold text-xl">Mô hình hóa nghiệp vụ</div>
+                              <div class="icon-down">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                    
+                              </div>
+                           </div>
+                           <div class="content-1 flex flex-row justify-between bg-secondary-color px-5 py-4 rounded-lg mb-3">
+                              <div class="text-content-roadmap font-semibold text-xl">Phân tích yêu cầu người dùng với useCase</div>
+                              <div class="icon-down">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                    
+                              </div>
+                           </div>
+                           <div class="content-1 flex flex-row justify-between bg-secondary-color px-5 py-4 rounded-lg mb-3">
+                              <div class="text-content-roadmap font-semibold text-xl">Phân tích và đặc tả yêu cầu người dùng với hệ thống</div>
+                              <div class="icon-down">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                    
+                              </div>
+                           </div>
+                           <div class="content-1 flex flex-row justify-between bg-secondary-color px-5 py-4 rounded-lg mb-3">
+                              <div class="text-content-roadmap font-semibold text-xl">Thu thập và phần tích thông tin</div>
+                              <div class="icon-down">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                    
+                              </div>
+                           </div>
+                           <div class="content-1 flex flex-row justify-between bg-secondary-color px-5 py-4 rounded-lg mb-3">
+                              <div class="text-content-roadmap font-semibold text-xl">Mockup/ prototype UI</div>
+                              <div class="icon-down">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                    
+                              </div>
+                           </div>
+                           <div class="content-1 flex flex-row justify-between bg-secondary-color px-5 py-4 rounded-lg mb-3">
+                              <div class="text-content-roadmap font-semibold text-xl">Viết đặc tả yêu cầu SRS và đào tạo chuyển giao phần mềm</div>
+                              <div class="icon-down">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                    
+                              </div>
+                           </div>
+                      
+                      </div>
+                      <div class="roadmap2">
+                          <h4 class="text-primary-text font-semibold text-2xl my-3">Phần 2: Giao tiếp và văn hóa doanh nghiệp cho BA</h4>
+                          <div class="content-1 flex flex-row justify-between bg-secondary-color px-5 py-4 rounded-lg mb-3">
+                              <div class="text-content-roadmap font-semibold text-xl">Văn hóa doanh nghiệp</div>
+                              <div class="icon-down">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                    
+                              </div>
+                           </div>
+                           <div class="content-1 flex flex-row justify-between bg-secondary-color px-5 py-4 rounded-lg mb-3">
+                              <div class="text-content-roadmap font-semibold text-xl">Giao tiếp của BA</div>
+                              <div class="icon-down">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                    
+                              </div>
+                           </div>
+                           
+                        
+                         
+                         
+                        
+                         
+                       
+                      
+                      </div>
+                  </div>
+              </section>
+          </main>
+          <footer class="flex justify-center items-center font-semibold text-xl px-8 h-[108px] w-full bg-primary-text text-white">Design by Lechilinhdev.com</footer>
+      </div>
+  </div>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         const loadEl = document.querySelector('#load');
