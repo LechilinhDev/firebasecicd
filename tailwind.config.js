@@ -11,6 +11,9 @@ module.exports = {
         'secondary-color': '#D9D9D9',
         'color-column':'#F0F3F4'
       },
+      body:{
+        'border-top': 'none !important'
+      }
     },
   },
   plugins: [],
