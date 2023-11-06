@@ -1,5 +1,26 @@
 {
   "dependencies": {
     "firebase": "^10.5.2"
-  }
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "name": "deploy-firebase",
+  "description": "lechilinhdev.com",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev":"live-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LechilinhDev/firebasecicd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LechilinhDev/firebasecicd/issues"
+  },
+  "homepage": "https://github.com/LechilinhDev/firebasecicd#readme"
 }
